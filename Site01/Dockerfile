@@ -9,7 +9,7 @@ RUN pip install -r requirements.txt
 
 EXPOSE 80
 
-ENV NAME=World
+ENV NAME="01"
 # Run the command on container startup
 CMD ["python","-u","app.py"]
 
